@@ -11,6 +11,7 @@ div {
     width: 960px;
     margin: auto;
     float: center;
+    min-height: 420px;
 }
 
 .container {
@@ -29,14 +30,13 @@ div {
 .center-col {
     background-color: #190041;
     color: #b5a4cc;
-    width: fixed;
     float: center;
-    height: 650px;
     border: 1px solid black;
     padding-top: 20px;
     padding-right: 10px;
     padding-bottom: 20px;
     padding-left: 50px;
+    margin: 0 20px; 
 }
 
 .header {
