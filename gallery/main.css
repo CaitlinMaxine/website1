@@ -1,0 +1,160 @@
+
+body {
+    margin-top: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(https://iili.io/dLdaZg.md.jpg);
+    background-size: cover;
+    background-attachment: fixed;;
+   
+}
+
+.bold-underline {
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+}
+
+.header-title {
+    font-weight: bold;
+    text-align: center;
+    background-color: #a06cf3;
+    border: 5px solid #22dbf3;
+}
+
+#mainheader {
+    background-color: #16ff48;
+}
+
+nav {
+    height: 60px;
+    width: 1000px;
+    margin: 0 auto 20px;
+}
+
+nav>ul { 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    ;
+}
+nav>ul>li {
+    float: left;
+}
+
+nav>ul>li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#leftmenu {
+    float: left;
+    width: 30%;
+    margin-bottom: 20ox;
+}
+
+#main {
+    float: right;
+    width: 70%;
+    margin-bottom: 20px;
+}
+
+.footer {
+    clear: both;
+    width: 100%;
+}
+
+.searchbox {
+    padding: 5px;
+    margin: 10px 10px;
+    width: 200px;
+}
+
+p {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+.bio {
+    text-align: center;
+    font-size: 10px;
+    background-color: #22dbf3;
+    border: 5px solid #a06cf3
+}
+
+.Gallary {
+    font-weight: bold;
+    text-indent: 60px;
+    word-spacing: 1000px;
+}
+
+.image {
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.left-col, .right-col {
+    background-color: #a06cf3;
+    width: 33.3%;
+    float: left;
+    height: 850px;
+} 
+
+.center-col {
+    background-color: #a168fc;
+    width: 33.3%;
+    float: left;
+    height: 850px;
+}
+
+.left-col2, .right-col2 {
+    background-color: rgb(2, 143, 101);
+    width: 50%;
+    float: left;
+    height: 850px;
+}
+
+.gallery {
+  text-align: center;
+  background-color: rgb(165, 140, 236);
+  width: 750px;
+  min-height: 750px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.gallery img {
+  float: left;
+  width: 30%;
+  margin: 10px;
+  display: inline;
+  max-height: 375px;
+}
+
+.header {
+    font-weight: bold;
+    text-align: center;
+    background-color: #310577;
+    width: 100%;
+    height: 300px;
+}
+
+
+
