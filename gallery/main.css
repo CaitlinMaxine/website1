@@ -4,7 +4,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(https://iili.io/dLdaZg.md.jpg);
+    background-image: url(https://iili.io/dbaQcu.md.jpg);
     background-size: cover;
     background-attachment: fixed;;
    
@@ -20,10 +20,12 @@ body {
 }
 
 .header-title {
-    font-weight: bold;
-    text-align: center;
-    background-color: #a06cf3;
-    border: 5px solid #22dbf3;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid black;
+  background-color: rgb(224, 141, 250);
+  padding: 20px 10px 20px 10px;
+  width: fixed;
 }
 
 #mainheader {
@@ -88,17 +90,14 @@ h1 {
 }
 
 .bio {
-    text-align: center;
-    font-size: 10px;
-    background-color: #22dbf3;
-    border: 5px solid #a06cf3
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid black;
+  background-color: rgb(158, 1, 206);
+  padding: 40px 10px 40px 10px;
+  width: fixed;
 }
 
-.Gallary {
-    font-weight: bold;
-    text-indent: 60px;
-    word-spacing: 1000px;
-}
 
 .image {
     text-align: center;
@@ -156,5 +155,50 @@ h1 {
     height: 300px;
 }
 
+li {
+  display: none;
+}
+
+ul{
+  padding: 0;
+  list-style: none;
+  background: transparent;        
+}
+
+ul li{
+  display: inline-block;
+  position: relative;
+  line-height: 21px;
+  text-align: left;
+}
+ul li a{
+  display: block;
+  padding: 8px 25px;
+  color: #333;
+  text-decoration: none;
+}
+ul li a:hover{
+  color: rgb(133, 47, 245);
+  background: #3a0161;
+}
+
+ul li ul.dropdown{  
+  min-width: 100%; 
+  background: #49018b;
+  display: none;
+  position: absolute;
+  z-index: 999;
+  left: 0;
+}
+ul li:hover ul.dropdown{
+  display: block;	
+}
+ul li ul.dropdown li{
+  display: block;
+}
+
+.menu-wrap {
+  border: dotted 1px;
+}
 
 
