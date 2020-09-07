@@ -32,31 +32,6 @@ body {
     background-color: #16ff48;
 }
 
-nav {
-    height: 60px;
-    width: 1000px;
-    margin: 0 auto 20px;
-}
-
-nav>ul { 
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    ;
-}
-nav>ul>li {
-    float: left;
-}
-
-nav>ul>li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 16px;
-    text-decoration: none;
-    font-weight: bold;
-}
 
 #leftmenu {
     float: left;
@@ -157,10 +132,11 @@ h1 {
 
 li {
   display: none;
+  border: dotted 1px;
 }
 
 ul{
-  padding: 0;
+  padding: 10px 20px 10px 20px;
   list-style: none;
   background: transparent;        
 }
@@ -174,8 +150,9 @@ ul li{
 ul li a{
   display: block;
   padding: 8px 25px;
-  color: #333;
+  color: rgb(22, 22, 22);
   text-decoration: none;
+  font-weight: bold;
 }
 ul li a:hover{
   color: rgb(133, 47, 245);
