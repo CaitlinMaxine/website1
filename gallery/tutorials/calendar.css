@@ -1,0 +1,16 @@
+body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-auto-rows: 3em 2em;
+  grid-auto-columns: 4em;
+  margin: 0;
+
+}
+
+div {
+
+  border-color: green;
+  border-style: solid;
+  border-width: 1px;
+}
