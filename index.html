@@ -22,14 +22,16 @@
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script> -->
   <script src="lib/jquery-3.5.1.js"></script>
   <script>
-    $('div.button-container',hover).hide();
+    
+    $('div.button-container').hide();
+
   </script>
 </head>
-<body onclick="jQuery('div.button-container').fadeIn(4000);">
+<body>
 	<div class="main">
 		<div class="menu-wrap">
 			<div class="hamburger"> </div>
-			<div class="menu">
+			 <div class="menu">
 				<nav>
 					<ul>
 						<li><a href="http://caitlinmaxine.com/">Home</a></li>
@@ -47,11 +49,12 @@
 					</ul>
 				</nav>
 			</div>
-		</div>
+    </div>
+    <div></div>
       <h1 class="header">This is my header</h1>
       <div class="button-container">
 			<div class="center-col">
-			<button onclick="jQuery('div.button-container').fadeOut(4000);">Get Faded!</button>
+			<button onclick="$('.button-container').fadeOut(4000);">Get Faded!</button>
     </div>
   </body>
 </html>
