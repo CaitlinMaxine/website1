@@ -25,6 +25,7 @@ main {
   grid-column-end: 13;
   grid-row-start: 2;
   grid-row-end: 4;
+  padding: 40px 30px 40px 30px;
   background-color: rgb(111, 99, 117);
 }
 
@@ -37,11 +38,17 @@ main {
 
 }
 
-aside,
 nav {
   grid-column-start: 1;
   grid-column-end: 5;
   background-color: rgb(98, 78, 107);
+}
+
+aside {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  background: transparent; 
+
 }
 
 
