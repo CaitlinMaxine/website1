@@ -2,6 +2,13 @@
 <html>
 <head>
   <link rel="stylesheet" href="grid.css" />
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script> 
+   <script src="lib/jquery-3.5.1.js"></script>
+   <script>
+
+   $('div.decoration').hide();
+   
+  </script> 
 </head>
 <body>
 <header><h1>Grid Layout Example</h1></header>
@@ -29,12 +36,14 @@
     </main>
     <aside class="image"><img src="https://iili.io/2qbneI.md.png"/></aside>
     <div class="decoration">
+    <div  onclick="$('div.decoration').fadeIn(4000);">
+    <image onclick="$('div.decoration').fadeOut(4000);" src="https://iili.io/2Kid67.md.jpg"></image>
+    <img src="https://iili.io/2Kid67.md.jpg">
     <img src="https://iili.io/2Kid67.md.jpg"> 
     <img src="https://iili.io/2Kid67.md.jpg"> 
     <img src="https://iili.io/2Kid67.md.jpg"> 
-    <img src="https://iili.io/2Kid67.md.jpg"> 
-    <img src="https://iili.io/2Kid67.md.jpg"> 
-    <img src="https://iili.io/2Kid67.md.jpg"> 
+    <img src="https://iili.io/2Kid67.md.jpg">
+    </div> 
     </div> 
    <footer>Footer</footer>
 </body>
