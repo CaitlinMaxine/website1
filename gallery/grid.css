@@ -54,6 +54,8 @@ nav {
 }
 
 aside {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold; 
   grid-column-start: 1;
   grid-column-end: 5;
   background: transparent; 

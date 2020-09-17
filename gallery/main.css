@@ -1,114 +1,68 @@
-
 body {
-    margin-top: 0px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-left: auto;
-    margin-right: auto;
-    background-image: url(https://iili.io/dbaQcu.md.jpg);
-    background-size: cover;
-    background-attachment: fixed;;
-   
+  display: grid;
+  grid: auto-flow min-content/ repeat(12, 1fr);
+  margin: 2em;
+  
+  }
+
+ .background {
+   overflow: auto; 
+   border-image-width: fixed; 
+ }
+
+header,
+footer {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  border-width: 2px;
+  padding: 30px 0px 30px 0px;
+  background-color: transparent;
+}
+ 
+main {
+  grid-column-start: 5;
+  grid-column-end: 13;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  border-width: 2px;
+  padding: 10px 5px 10px 5px;
+  background-color: transparent;
+  
 }
 
-.bold-underline {
-    font-weight: bold;
-    text-decoration: underline;
-    text-align: center;
-    width: 500px;
-    display: block;
-    margin: 0 auto;
+aside {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  background: transparent; 
+  overflow: hidden;
+
 }
 
-.header-title {
-  font-weight: bold;
-  text-align: center;
-  border: 1px solid black;
-  background-color: rgb(224, 141, 250);
-  padding: 40px 20px 40px 20px;
-  width: fixed;
-}
-
-p {
-    font-size: 20px;
-}
 
 h1 {
-    font-size: 35px;
-}
-
-.bio {
+  text-align: center; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: bold;
-  text-align: center;
-  border: 1px solid black;
-  background-color: rgb(158, 1, 206);
-  padding: 40px 10px 40px 10px;
-  width: fixed;
-}
-
-
-.image {
-    text-align: center;
-}
-
-.center {
-    text-align: center;
-    font-size: 30px;
 
 }
 
-.left-col, .right-col {
-    background-color: #a06cf3;
-    width: 33.3%;
-    float: left;
-    height: 850px;
-} 
+h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
 
-.center-col {
-    background-color: #a168fc;
-    width: 33.3%;
-    float: left;
-    height: 850px;
 }
 
-.left-col2, .right-col2 {
-    background-color: rgb(2, 143, 101);
-    width: 50%;
-    float: left;
-    height: 850px;
+div {
+  text-align: center; 
 }
 
-.gallery {
-  text-align: center;
-  background-color: rgb(165, 140, 236);
-  width: 750px;
-  min-height: 750px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.gallery img {
-  float: left;
-  width: 30%;
-  margin: 10px;
-  display: inline;
-  max-height: 375px;
-}
-
-.header {
-    font-weight: bold;
-    text-align: center;
-    background-color: #310577;
-    width: 100%;
-    height: 300px;
-}
 
 li {
   display: none;
-  border: dotted 1px;
 }
 
 ul{
-  padding: 10px 20px 10px 20px;
+  padding: 10px 5px 10px 5px;
   list-style: none;
   background: transparent;        
 }
@@ -127,13 +81,13 @@ ul li a{
   font-weight: bold;
 }
 ul li a:hover{
-  color: rgb(133, 47, 245);
-  background: #3a0161;
+  color: rgb(180, 177, 184);
+  background: #9b989c;
 }
 
 ul li ul.dropdown{  
   min-width: 100%; 
-  background: #49018b;
+  background: #a6a5a7;
   display: none;
   position: absolute;
   z-index: 999;
@@ -147,7 +101,8 @@ ul li ul.dropdown li{
 }
 
 .menu-wrap {
-  border: dotted 1px;
+  border: transparent;
 }
+
 
 

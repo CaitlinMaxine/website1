@@ -1,16 +1,106 @@
 body {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: auto;
-  grid-auto-rows: 3em 2em;
-  grid-auto-columns: 4em;
-  margin: 0;
+  grid: auto-flow min-content/ repeat(12, 1fr);
+  margin: 2em;
+  
+  }
+
+ .background {
+   overflow: auto; 
+   border-image-width: fixed; 
+ }
+
+header,
+footer {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  border-width: 2px;
+  padding: 30px 0px 30px 0px;
+  background-color: transparent;
+}
+ 
+main {
+  grid-column-start: 5;
+  grid-column-end: 13;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  border-width: 2px;
+  padding: 10px 5px 10px 5px;
+  background-color: transparent;
+  
+}
+
+aside {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  background: transparent; 
+  overflow: hidden;
+
+}
+
+
+h1 {
+  text-align: center; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+
+}
+
+h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
 
 }
 
 div {
-
-  border-color: green;
-  border-style: solid;
-  border-width: 1px;
+  text-align: center; 
 }
+
+
+li {
+  display: none;
+}
+
+ul{
+  padding: 10px 5px 10px 5px;
+  list-style: none;
+  background: transparent;        
+}
+
+ul li{
+  display: inline-block;
+  position: relative;
+  line-height: 21px;
+  text-align: left;
+}
+ul li a{
+  display: block;
+  padding: 8px 25px;
+  color: rgb(22, 22, 22);
+  text-decoration: none;
+  font-weight: bold;
+}
+ul li a:hover{
+  color: rgb(180, 177, 184);
+  background: #9b989c;
+}
+
+ul li ul.dropdown{  
+  min-width: 100%; 
+  background: #a6a5a7;
+  display: none;
+  position: absolute;
+  z-index: 999;
+  left: 0;
+}
+ul li:hover ul.dropdown{
+  display: block;	
+}
+ul li ul.dropdown li{
+  display: block;
+}
+
+.menu-wrap {
+  border: transparent;
+}
+
