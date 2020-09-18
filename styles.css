@@ -6,12 +6,12 @@ div {
     /* border: solid red 1px; */
 }
 
-.main {
+main {
     background-color: #ccc;
     width: 960px;
     margin: auto;
     float: center;
-    min-height: 420px;
+    min-height: 620px;
 }
 
 .container {
@@ -32,14 +32,11 @@ div {
     color: #b5a4cc;
     float: center;
     border: 1px solid black;
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 50px;
+    padding: 50px 50px 50px 50px;
     margin: 0 20px; 
 }
 
-.header {
+ header {
     font-weight: bold;
     text-align: center;
     border: 1px solid black;
